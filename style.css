@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    font-family: monospace;
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+#password{
+    display: none;
+}
+
+#codeeditor{
+    background: rgb(0 0 0 / 20%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.CodeMirror{
+    color: white!important;
+    background-color: #00000087!important;
+}
+
+.CodeMirror-gutter {
+    width: 0px;
+}
+
+.cm-s-dracula .CodeMirror-gutters{
+    background-color: transparent;
+}
+
+.cm-s-dracula.CodeMirror, .cm-s-dracula{
+    background: rgb(0 0 0 / 20%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    width: 80%;
+}
+
+.inputfield{
+    background: rgb(0 0 0 / 20%);
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    outline: none;
+    padding: 5px;
+}
+
+textarea{
+    font-family: monospace;
+}
+
+.link{
+    background: rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    padding: 5px;
+}
+
+
+.CodeMirror cm-s-dracula:nth-child(2){
+    display: none;
+}
